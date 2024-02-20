@@ -13,6 +13,10 @@ window.onload = function() {
     const middleRow = document.querySelector(".middle-row");
     const bottomRow = document.querySelector (".bottom-row");
     
+    const topRowElement = document.createElement('div');
+    const middleRowElement = document.createElement('div');
+    const bottomRowElement = document.createElement('div');
+    
     const topTextNode = document.createTextNode(randomSuit);
     const middleTextNode = document.createTextNode(randomValue);
     const bottomTextNode = document.createTextNode(randomSuit);
