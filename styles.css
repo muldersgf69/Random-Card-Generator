@@ -2,8 +2,11 @@ body{
     background:greenyellow;
 }
 .card {
+    background-color: white;
     text-align: center;
-    display:inline-block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin:auto;
     height:400px;
     width:250px;
@@ -11,6 +14,7 @@ body{
     border: 1px solid black;
     border-radius: 20px;
     position:relative;
+    font-size: 50px;
     .card-value{ 
         position:absolute;
         top:50%;
